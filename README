@@ -1,0 +1,7 @@
+For compilation gsl library need to be installed from gsllib folder or https://ftp.gnu.org/gnu/gsl/ to defualt system folders
+
+To fix this error "./a.out: error while loading shared libraries:
+libgsl.so.0: cannot open shared object file: No such file or directory"
+
+$ LD_LIBRARY_PATH=/usr/local/lib
+$ export LD_LIBRARY_PATH
